@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+  
+  .header {
+      display: flex;
+      padding: 0px;
+      border: 0px;
+      background-color: white;
+      justify-content: center;
+      width: 100%;
+      height: 70px;
+  }
+  
+  .feed {
+      background-color: lightgrey;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+  }
+  
+  .feed-column {
+      background-color: lightgrey;
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      width: 40%;
+  }
+  
+  .post1 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px lightgray;
+  }
+  
+  .title {
+    display: flex;
+  }
+  
+  .title h2 {
+    width: 80%;
+    padding: 10px;
+  }
+  
+  .title p {
+    width: 20%;
+    color: gray;
+    padding: 15px;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  
+  
